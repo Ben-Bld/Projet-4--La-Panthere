@@ -860,13 +860,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1127,3 +1127,26 @@ form {
     color: white !important;
 }
 
+.title2 {
+    color: white !important;
+}
+
+
+.site-navigation {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+li a{
+    text-decoration: none ;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+}
+
+.bloc-sm {
+    margin: auto;
+}
